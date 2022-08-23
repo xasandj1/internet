@@ -1,0 +1,7 @@
+export {default as Header} from './Header'
+export {default as Trafick} from './Trafick'
+export {default as Help} from './Help'
+export {default as Company} from './Company'
+export {default as News} from './News'
+export {default as Document} from './Document'
+export {default as Partner} from './Partner'

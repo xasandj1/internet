@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+:root {
+  --fiol: #6984F0;
+  --dark: #263057;
+  --white: #ffff;
+  --gray: #F1F2F4;
+  --darkblue: linear-gradient(136.49deg, #263057 25.34%, #1D1444 89.06%);
+  ;
+  --font-c: 'Circe', sans-serif;
+  --font-a: 'Afuturaroundbold', sans-serif;
+  --font-m: 'Manrope', sans-serif;
+  --lightWhite:rgba(38, 48, 87, 0.2);
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+body {
+  background: var(--gray);
+  font-family: var(--font-c) sans-serif;
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.bg-darkblue {
+  background: var(--darkblue);
+}
+
+.img {
+  position: absolute !important;
+  bottom: 34px !important;
+  right: -30px !important;
+  ;
+}
+
+button,
+a {
+  &:hover {
+    cursor: pointer;
+  }
+}
